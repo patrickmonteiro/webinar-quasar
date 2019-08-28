@@ -48,7 +48,9 @@ module.exports = function (ctx) {
         'QItemLabel',
         'QCard',
         'QCardSection',
-        'QCardActions'
+        'QCardActions',
+        'QInnerLoading',
+        'QSpinner'
       ],
 
       directives: [
@@ -57,7 +59,8 @@ module.exports = function (ctx) {
 
       // Quasar plugins
       plugins: [
-        'Notify'
+        'Notify',
+        'Loading'
       ]
     },
 

@@ -1,3 +1,8 @@
 export default {
-  posts: []
+  posts: [],
+  post: {
+    content: {
+      rendered: ''
+    }
+  }
 }
